@@ -2,7 +2,7 @@ WordNet is a semantic lexicon for the English language that is used extensively 
 
 - Ruby Files
   - **graph.rb**: A simple graph implementation for use in your WordNet. 
-  - **wordnet.rb**: Contains a skeleton implementation of the three classes.
+  - **wordnet.rb**: Contains a skeleton implementation of three classes.
   - **interactive.rb**: A frontend that utilizes the methods you have written to interface with WordNet. 
 
 In order to perform operations on WordNet, we will construct our own representation of hypernym relationships using the provided graph implementation. Each vertex `v` is a non-negative integer representing a synset id, and each directed edge `v->w` represents `w` as a hypernym of `v`. The graph is directed and acyclic (DAG), though not necessarily a tree since each synset can have several hypernyms. A small subset of the WordNet graph is illustrated below.  
